@@ -1,0 +1,70 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Navbar (Top Dock) */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 115, 230, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Landing Page Hero Section */
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 200px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: white;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #005bb5;
+    color: white;
+}
+
+/* Content Section */
+.container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
